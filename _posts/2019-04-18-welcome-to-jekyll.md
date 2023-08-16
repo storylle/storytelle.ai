@@ -4,9 +4,14 @@ date: 2023-07-18T15:34:30-04:00
 # categories:
   # - blog
 tags:
-  - AI
-  - Education
+  - Sleeping too much
 ---
+
+<object data="file:/assets/images/bear.pdf" type="application/pdf" width="700px" height="700px">
+  <embed src="file:/assets/images/bear.pdf">
+  <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/images/bear.pdf">Download PDF</a>.</p>
+  </embed>
+</object>
 
 
 

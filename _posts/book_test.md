@@ -1,0 +1,49 @@
+---
+title: "The bear - flipbook"
+date: 2023-07-18T15:34:30-04:00
+# categories:
+  # - blog
+tags:
+  - Sleeping too much
+---
+
+<!-- <object data="file:/assets/images/bear.pdf" type="application/pdf" width="700px" height="700px">
+  <embed src="file:/assets/images/bear.pdf">
+  <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/images/bear.pdf">Download PDF</a>.</p>
+  </embed>
+</object> -->
+
+<div id="fliphtml5-book-container" style="width:800px;height:600px">
+  <script type="text/javascript" src="https://fliphtml5.com/js/fliphtml5.min.js"></script>
+  <script type="text/javascript">
+    var book = new FlipHTML5Book();
+    book.init({
+      bookId: "123456",
+      bookUrl: "file:/assets/images/bear.pdf",
+      bookWidth: 800,
+      bookHeight: 600
+    });
+    document.getElementById("fliphtml5-book-container").appendChild(book.getDom());
+  </script>
+</div>
+
+
+<!-- You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+```ruby
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+```
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/ -->
