@@ -7,12 +7,7 @@ tags:
   - Sleeping too much
 ---
 
-<!-- <object data="file:/assets/images/bear.pdf" type="application/pdf" width="700px" height="700px">
-  <embed src="file:/assets/images/bear.pdf">
-  <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/images/bear.pdf">Download PDF</a>.</p>
-  </embed>
-</object> -->
-<!-- 
+
 <div id="fliphtml5-book-container" style="width:800px;height:600px">
   <script type="text/javascript" src="https://fliphtml5.com/js/fliphtml5.min.js"></script>
   <script type="text/javascript">
@@ -25,7 +20,7 @@ tags:
     });
     document.getElementById("fliphtml5-book-container").appendChild(book.getDom());
   </script>
-</div> -->
+</div>
 
 
 <!-- You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
